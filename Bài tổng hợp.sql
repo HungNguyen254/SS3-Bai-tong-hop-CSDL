@@ -13,7 +13,7 @@ Update products
 set price = 400000
 where product_id = 'P02';
 Update Products
-set price = price(1+0,1);
+set price = price*1,1;
 delete from products
 where product_id = 'P03';
 Select (Product_name,Size) from products
